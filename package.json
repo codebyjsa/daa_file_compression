@@ -1,0 +1,36 @@
+{
+  "name": "routepulse-daa-navigation-planner",
+  "private": true,
+  "version": "1.0.0",
+  "description": "RoutePulse: Smart Delivery Route & Campus/City Navigation Planner (Dijkstra, A*, Bellman-Ford, Held-Karp TSP, Kruskal/Prim MST)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "node --test src/algorithms/__tests__/routing.test.ts"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "lucide-react": "0.462.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "2.15.2",
+    "tailwind-merge": "2.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.2.2",
+    "@types/react": "18.3.20",
+    "@types/react-dom": "18.3.7",
+    "tailwindcss": "4.2.2",
+    "typescript": "5.8.2",
+    "vite": "6.3.5"
+  },
+  "overrides": {
+    "rollup": "4.59.0",
+    "@types/d3-shape": "3.1.8",
+    "nanoid": "3.3.15",
+    "postcss": "8.4.49",
+    "@babel/runtime": "7.28.4"
+  }
+}
